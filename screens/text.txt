@@ -1,0 +1,45 @@
+namaste
+eLibrary, as we know that during this corona pandemic time and even beore, we couldn't get to read our favourite books, like I personally liked The Percy Jackson Series, I used to read i in my school library but during lockdown, we couldn't go to school, as a result I could not get to the book I would enjoy to read, I searched on Amazon and Flipkart and the book was with a price tag of 800 ruppees, the more cheaper one wasn't available. Then I tried searching for PDFs for the book which took much time but when i got the correct PDF, I thought how many people would be eager to read this book and how much time affective it would be to search for PDFs, so we decided to make an app in which we would be having thousands of books reviews, and PDFs given by the user itself.
+The App is called e-Library
+This app is made from a cross-plaform language called React Native,React Native is a powerfull language to make both android and ios apps.    
+
+First things First - Privacy & security...
+The App has got Google Authentication in it, thus no trackers or hackers would be able to hack your device easily. We use a secure databse called Firebase which is again from Google itself to maintain our books and users. We user our own OAth creadentials for database & authentication.
+Next is the main Function of our app
+Then the design, the App has got a very gorgeous ,simple and seamless design. There are 2 themes available as well, light and dark.
+The Main Function of the App is to get Books and Novels to every person which can be anyone , this app can work from Android 1 to Android 12, iOS 1 to 15 on any deivce without any limitations.
+How will we get those thousands of books, 
+firstly we thought that we will upload the books and reviews by ourselves then, we came to a conclusion that the user should have the opportunity to upload its own book and its own independent reviews.  Users can even like a book in this App.
+Suppose, I recently read the Percy Jackson and the Battle of Labrinth , through a PDF which I got online, and then I see that this would be liked by users so in the Add Book Section I can write a review of the book and upload its PDF's link and submit it to us(database). DONE! the book will be shown up in the Home page.
+Lets see a demo
+What we can add more, we can add a Search bar in the homepage because navigating thorugh hundreads of books would be much irritating , we couldn't add it now beacuse the code of the app is a bit complicated and adding through new features like a Search bar query wasnt' possible in this limited time. We can even add a supervisor function which will review wheather the user is uploading the right book or not.
+hope you enjoyed it
+<THANKYOU/>
+
+
+
+
+
+
+dev's note
+<View style={{ height: RFValue(this.state.dropdownHeight) }}>
+                <DropDownPicker
+                 items={[
+                    { label: "Image 1", value: "image_1" },
+                    { label: "Image 2", value: "image_2" },
+                  ]}
+                  defaultIndex={0}
+                  containerStyle={{
+                    height: 40,
+                    borderRadius: RFValue(20),
+                    marginBottom: RFValue(20),
+                    marginHorizontal: RFValue(10)
+                  }}
+                  onOpen={() => {
+                    this.setState({ dropdownHeight: 170 });
+                  }}
+                  onClose={() => {
+                    this.setState({ dropdownHeight: 40 });
+                  }}
+                />
+</View>
